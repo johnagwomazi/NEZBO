@@ -4,7 +4,7 @@ Nobzo Lite lets users browse property listings, search by title or location, fil
 
 ## Live Demo
 
-`https://your-deployment-url.com`
+`https://nezbolite-sigma.vercel.app/`
 
 ## Repository
 
