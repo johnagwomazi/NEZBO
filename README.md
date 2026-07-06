@@ -8,7 +8,7 @@ Nobzo Lite lets users browse property listings, search by title or location, fil
 
 ## Repository
 
-`https://github.com/yourusername/nobzo-lite`
+`https://github.com/johnagwomazi/NEZBO`
 
 ## Features
 
