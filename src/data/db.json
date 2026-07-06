@@ -1,0 +1,54 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Test User",
+      "email": "user@nobzo.com"
+    }
+  ],
+  "properties": [
+    {
+      "id": 101,
+      "title": "Modern 2 Bedroom Apartment",
+      "description": "Spacious apartment in a prime location with modern amenities.",
+      "location": "Lagos, Nigeria",
+      "price": 1200000,
+      "type": "rent",
+      "image": "https://images.unsplash.com/photo-1560448204-603b3fc33ddc"
+    },
+    {
+      "id": 102,
+      "title": "Luxury Duplex Villa",
+      "description": "Premium duplex with private parking and security.",
+      "location": "Abuja, Nigeria",
+      "price": 45000000,
+      "type": "sale",
+      "image": "https://images.unsplash.com/photo-1570129477492-45c003edd2be"
+    },
+    {
+      "id": 103,
+      "title": "Studio Apartment",
+      "description": "Affordable studio apartment ideal for young professionals.",
+      "location": "Port Harcourt, Nigeria",
+      "price": 600000,
+      "type": "rent",
+      "image": "https://images.unsplash.com/photo-1502672260266-1c1ef2d93688"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "propertyId": 101,
+      "user": "Test User",
+      "text": "This looks amazing!",
+      "createdAt": "2026-07-02"
+    }
+  ],
+  "likes": [
+    {
+      "id": 1,
+      "propertyId": 101,
+      "userId": 1
+    }
+  ]
+}
