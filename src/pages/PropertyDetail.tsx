@@ -144,13 +144,13 @@ export default function PropertyDetail() {
       <main className="mx-auto max-w-7xl px-0 pb-28 pt-0 sm:px-6 sm:py-8 lg:px-8 lg:py-8">
         <Link
           to="/feed"
-          className="mx-4 mt-4 inline-flex items-center gap-2 rounded-full bg-white/90 px-4 py-2 text-sm font-semibold text-brand-700 shadow-sm ring-1 ring-slate-200 backdrop-blur hover:text-brand-800 sm:mx-0 sm:mt-0 sm:bg-transparent sm:px-0 sm:py-0 sm:shadow-none sm:ring-0"
+         className="hidden lg:inline-flex items-center gap-2 rounded-full bg-white/90 px-4 py-2 text-sm font-semibold text-brand-700 shadow-sm ring-1 ring-slate-200 backdrop-blur transition hover:text-brand-800"
         >
           <ArrowLeft size={16} />
           Back to Feed
         </Link>
 
-        <div className="mt-4 overflow-hidden rounded-[2rem] border border-slate-200 bg-white shadow-sm sm:mt-6">
+        <div className="mt-4 mx-3 overflow-hidden rounded-[2rem] border border-slate-200 bg-white shadow-sm sm:mt-6">
           <div className="relative h-[360px] sm:h-[420px] lg:h-[500px]">
             <img
               src={property.image}
@@ -181,7 +181,7 @@ export default function PropertyDetail() {
           </div>
         </div>
 
-        <div className="mt-4 grid grid-cols-2 gap-3 px-0 sm:mt-8 sm:grid-cols-2 sm:gap-4 lg:grid-cols-4">
+        <div className="mt-4 mx-4 grid grid-cols-2 gap-3 px-0 sm:mt-8 sm:grid-cols-2 sm:gap-4 lg:grid-cols-4">
           {/* Likes Card */}
           <div className="w-full rounded-2xl border border-slate-200 bg-white p-3.5 shadow-sm sm:rounded-3xl sm:p-5">
             <p className="text-[10px] font-semibold uppercase tracking-wider text-slate-400 sm:text-xs sm:tracking-[0.18em]">

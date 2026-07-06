@@ -1,6 +1,12 @@
 import { useEffect, useState } from "react";
 import { Link, NavLink, useLocation, useNavigate } from "react-router-dom";
-import { Bell, LogOut, Search, Settings, User } from "lucide-react";
+import {
+  Bell,
+  LayoutDashboard,
+  LogOut,
+  Search,
+  Settings,
+} from "lucide-react";
 import SearchBar from "./SearchBar";
 import { useStore } from "../store/useStore";
 
@@ -83,6 +89,20 @@ export default function Navbar() {
 
           {/* Right */}
           <div className="ml-auto flex shrink-0 items-center gap-2 sm:gap-3">
+            <NavLink
+              to="/admin"
+              className={({ isActive }) =>
+                `inline-flex rounded-full p-2 transition md:hidden ${
+                  isActive
+                    ? "bg-teal-50 text-teal-700"
+                    : "text-slate-500 hover:bg-slate-100 hover:text-slate-900"
+                }`
+              }
+              aria-label="Open admin dashboard"
+            >
+              <LayoutDashboard size={20} />
+            </NavLink>
+
             <button className="hidden lg:block rounded-lg bg-teal-700 px-4 py-2 text-sm font-medium text-white transition hover:bg-teal-800">
               Post Listing
             </button>
