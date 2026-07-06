@@ -111,10 +111,6 @@ export default function Navbar() {
               <Bell size={20} />
             </button>
 
-            <button className="rounded-full p-2 text-slate-500 transition hover:bg-slate-100">
-              <Settings size={20} />
-            </button>
-
             <button
               type="button"
               onClick={() => setIsMobileSearchOpen((open) => !open)}
